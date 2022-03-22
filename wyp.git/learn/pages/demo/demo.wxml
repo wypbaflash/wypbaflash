@@ -1,0 +1,6 @@
+<!--pages/demo/demo.wxml-->
+<text wx:if="{{length<5}}">5</text>
+<text wx:elif="{{length>=5&&length<=10}}">5-10</text>
+<text wx:else>>10</text>
+<view wx:for="{{array}}" wx:for-index="idx" wx:for-item="aa" wx:key="idx">
+  {{idx}}:{{aa.name}}:{{aa.fenshu}}</view>
