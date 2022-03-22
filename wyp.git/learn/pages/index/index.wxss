@@ -1,0 +1,12 @@
+/* pages/index/index.wxss */
+.cont{
+  padding: 20rpx;
+}
+input{
+  margin-bottom: 10rpx;
+  border-bottom: 1px solid #ddd;
+}
+button{
+  width: 400rpx;
+  background-color: rgb(46, 230, 159);
+}

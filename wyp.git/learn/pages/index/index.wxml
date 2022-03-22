@@ -1,0 +1,9 @@
+<!--pages/index/index.wxml-->
+<view class="cont">
+  <text>加数</text>
+  <input type="number" />
+  <text>加数</text>
+  <input type="number" />
+  <button>add</button>
+  <text>结果：{{res}}</text>
+</view>
